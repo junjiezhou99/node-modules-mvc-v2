@@ -7,8 +7,8 @@ import {new_movie_update} from './data/newMovie.js';
 // Create / Read / Update / Delete
 
 let allMovies = function (data_movie) {
-        moviesController.getAllMovies(data_movie);
-        // data_movie.res.forEach((e) => console.log(e));
+    moviesController.getAllMovies(data_movie);
+    // data_movie.res.forEach((e) => console.log(e));
  }
 
 
